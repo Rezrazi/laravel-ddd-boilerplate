@@ -2,7 +2,7 @@
 
 namespace Domain\User\Models;
 
-use Domain\User\Factories\UserFactory;
+use Domain\User\Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Domain\User\Seeders;
+namespace Domain\User\Database\Seeders;
 
 use Database\Seeders\DatabaseSeeder;
 use Domain\User\Models\User;

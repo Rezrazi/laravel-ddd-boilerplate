@@ -19,11 +19,11 @@ class UserServiceProvider extends ServiceProvider
 
     private function loadMigrations()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../Migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../Database/Migrations');
     }
 
     private function loadViews()
     {
-        $this->loadViewsFrom(__DIR__ . '/../Views', 'UserViews');
+        $this->loadViewsFrom(__DIR__ . '/../Resources/Views', 'UserViews');
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use Domain\User\Seeders\UsersTableSeeder;
+use Domain\User\Database\Seeders\UsersTableSeeder;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
