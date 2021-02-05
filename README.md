@@ -24,3 +24,9 @@ A custom boilerplate for Domain-Driver-Design architecture for personal Laravel 
    |_ Support\
 
 ```
+
+## Next steps
+
+- [ ] Rewrite this boilerplate as a full fledged Laravel package with corresponding artisan commands
+- [ ] Write tests ?
+- [ ] Make Laravel auto discover domains from src\Domains
